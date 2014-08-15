@@ -1,0 +1,9 @@
+---
+applications:
+- name: helloworld
+  memory: 512M
+  instances: 1
+  host: routing-svennela
+  domain: 10.10.27.100.xip.io
+  path: target/helloworld-1.0-SNAPSHOT.war
+  

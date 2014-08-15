@@ -1,0 +1,9 @@
+<script>
+    var date = new Date();
+    var str = "Reached client view: " + date.toLocaleDateString("ja-JP") + " " + date.toLocaleTimeString("ja-JP");
+    $("#view-time").text("Reached client view: " + date.getTime());
+</script>
+<div class="row marketing">
+    <div id="view-time"></div>
+    <div>Reached client controller: {{controllerTime}}</div>
+</div>
